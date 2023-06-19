@@ -18,33 +18,32 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
+    <header class="fixed-header">
+      <div class="content">
+        <nav class="navbar">
+          <!-- Logo -->
+          <a href="#home" class="">
+            <img src="./assets//img/Logo.svg" alt="Besnik." />
+          </a>
+          <!-- Navigation -->
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#feature">Feature</a></li>
+            <li><a href="#resources">Resources</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+          </ul>
+          <!-- Action -->
+          <div class="actions">
+            <a href="" class="action-link">Sign In</a>
+            <a href="" class="btn action-btn">Sign Up</a>
+          </div>
+        </nav>
+      </div>
+    </header>
     <main id="home">
-      <header class="fixed-header">
-        <div class="content">
-          <nav class="navbar">
-            <!-- Logo -->
-            <a href="#home" class="">
-              <img src="./assets//img/Logo.svg" alt="Besnik." />
-            </a>
-            <!-- Navigation -->
-            <ul>
-              <li><a href="#home">Home</a></li>
-              <li><a href="#services">Services</a></li>
-              <li><a href="#feature">Feature</a></li>
-              <li><a href="#resources">Resources</a></li>
-              <li><a href="#contacts">Contacts</a></li>
-            </ul>
-            <!-- Action -->
-            <div class="actions">
-              <a href="" class="action-link">Sign In</a>
-              <a href="" class="btn action-btn">Sign Up</a>
-            </div>
-          </nav>
-        </div>
-      </header>
-
       <!-- Hero -->
-      <header class="hero-wrap">
+      <div class="hero-wrap">
         <div class="content">
           <div class="hero">
             <div class="info">
@@ -64,10 +63,10 @@
             />
           </div>
         </div>
-      </header>
+      </div>
 
       <!-- Client -->
-      <div class="clients">
+      <div id="services" class="clients">
         <div class="content">
           <div class="row">
             <!-- Logo -->
@@ -106,7 +105,7 @@
       </div>
 
       <!-- Guides -->
-      <div id="services" class="guides">
+      <div class="guides">
         <div class="content">
           <h2 class="subtitle">How its works?</h2>
           <p class="desc">
@@ -464,62 +463,62 @@
           </div>
         </div>
       </div>
+    </main>
 
-      <!-- Footer -->
-      <footer class="footer">
-        <div class="content">
-          <div class="row row-top">
-            <div class="column">
-              <h3 class="heading">Product</h3>
-              <ul class="list">
-                <li class="item">Listing</li>
-                <li class="item">Property</li>
-                <li class="item">Agents</li>
-                <li class="item">Blog</li>
-              </ul>
-            </div>
-            <div class="column">
-              <h3 class="heading">Resources</h3>
-              <ul class="list">
-                <li class="item">Our Homes</li>
-                <li class="item">Member Stories</li>
-                <li class="item">Video</li>
-                <li class="item">Free trial</li>
-              </ul>
-            </div>
-            <div class="column">
-              <h3 class="heading">Company</h3>
-              <ul class="list">
-                <li class="item">Patnerships</li>
-                <li class="item">Terms of use</li>
-                <li class="item">Privacy</li>
-                <li class="item">Sitemap</li>
-              </ul>
-            </div>
-            <div class="column">
-              <h3 class="heading">Get in touch</h3>
-              <p class="desc">
-                You’ll find your next home, in any style you prefer.
-              </p>
-              <div class="social">
-                <a href="" class="social-link">
-                  <img src="./assets//img/fb.svg" alt="facebook" />
-                </a>
-                <a href="" class="social-link">
-                  <img src="./assets//img/tw.svg" alt="twitter" />
-                </a>
-                <a href="" class="social-link">
-                  <img src="./assets//img/linkiend.svg" alt="linkiend" />
-                </a>
-              </div>
-            </div>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="content">
+        <div class="row row-top">
+          <div class="column">
+            <h3 class="heading">Product</h3>
+            <ul class="list">
+              <li class="item">Listing</li>
+              <li class="item">Property</li>
+              <li class="item">Agents</li>
+              <li class="item">Blog</li>
+            </ul>
           </div>
-          <div class="row row-bottom">
-            <img src="./assets/img/Logo.svg" alt="" class="logo" />
-            <p class="copyright">Copyright 2020.com, All rights reserved.</p>
+          <div class="column">
+            <h3 class="heading">Resources</h3>
+            <ul class="list">
+              <li class="item">Our Homes</li>
+              <li class="item">Member Stories</li>
+              <li class="item">Video</li>
+              <li class="item">Free trial</li>
+            </ul>
+          </div>
+          <div class="column">
+            <h3 class="heading">Company</h3>
+            <ul class="list">
+              <li class="item">Patnerships</li>
+              <li class="item">Terms of use</li>
+              <li class="item">Privacy</li>
+              <li class="item">Sitemap</li>
+            </ul>
+          </div>
+          <div class="column">
+            <h3 class="heading">Get in touch</h3>
+            <p class="desc">
+              You’ll find your next home, in any style you prefer.
+            </p>
+            <div class="social">
+              <a href="" class="social-link">
+                <img src="./assets//img/fb.svg" alt="facebook" />
+              </a>
+              <a href="" class="social-link">
+                <img src="./assets//img/tw.svg" alt="twitter" />
+              </a>
+              <a href="" class="social-link">
+                <img src="./assets//img/linkiend.svg" alt="linkiend" />
+              </a>
+            </div>
           </div>
         </div>
-      </footer>
-    </main>
+        <div class="row row-bottom">
+          <img src="./assets/img/Logo.svg" alt="" class="logo" />
+          <p class="copyright">Copyright 2020.com, All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
